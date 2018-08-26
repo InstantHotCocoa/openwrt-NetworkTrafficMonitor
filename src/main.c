@@ -18,8 +18,8 @@ struct eth_ip_tcp_hdr
 	uint8_t ip_ttl;             /* Time to live */
 	uint8_t ip_proto;           /* Protocol */
 	uint16_t ip_chksum;         /* Header checksum */
-	uint32_t ip_src;            /* IP Destination Address */
-	uint32_t ip_dst;            /* IP Source Address */
+	uint32_t ip_src;            /* IP Source Address */
+	uint32_t ip_dst;            /* IP Destination Address */
 	uint16_t tcp_srcport;       /* TCP Source Port */
 	uint16_t tcp_dstport;       /* TCP Destination Port */
 	uint32_t tcp_seq;           /* TCP Sequence number */
